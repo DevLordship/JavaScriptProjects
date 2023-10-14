@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+.list-items {
+    cursor: pointer;
+    /* width: min-content; */
+}
+
+.list-items:hover {
+    color: red;
+    text-decoration: line-through;
+}
