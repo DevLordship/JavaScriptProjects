@@ -2,6 +2,9 @@
 const form = document.querySelector("#new-item-form");
 const list = document.querySelector("#list");
 const input = document.querySelector("#item-input");
+console.log(form);
+console.log(list);
+console.log(input);
 // whenever i submit the form add a new item
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -10,8 +13,6 @@ form.addEventListener("submit", (e) => {
     const item = document.createElement("div");
     item.innerText = input.value;
     item.classList.add("list-items");
-
-    console.log(item);
 
     // add the item to the list
 
