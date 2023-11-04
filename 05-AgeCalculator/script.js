@@ -15,7 +15,6 @@ function getAge(birthdayValue) {
     const birthdayDate = new Date(birthdayValue);
     const currentYear = currentDate.getFullYear();
     const birthdayYear = birthdayDate.getFullYear();
-    // console.log(birthdayDate.getFullYear());
     const presentAge = currentYear - birthdayYear;
     console.log(presentAge);
 }
